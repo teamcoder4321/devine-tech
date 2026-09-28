@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Synchronize pnpm lockfile",
+			"type": "shell",
+			"command": "pnpm install --lockfile-only",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
